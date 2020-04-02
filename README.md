@@ -1,8 +1,17 @@
-# Data-Structures-and-Algorithms-
-## Repository Maintained by Sarthak Srivastava
 
+## Welcome to Data Structures and Algorithms in C++ :clipboard:
 
-Data Structures and Algorithms using C++.
+This Repository was made to maintain various Algorithms in C++ in a single space.
+This Repository is maintained by Sarthak1306
+This a public Repository and all sorts of contributions to the code are welcomed.
+
+> [Index](INDEX.md)
+
+## Steps to follow :scroll:
+
+### 1. Fork it :fork_and_knife:
+
+You can get your own fork/copy of [Data-Structures-and-Algorithms](https://github.com/Sarthak1306/Data-Structures-and-Algorithms) by using the <a> <kbd><b>Fork</b></kbd></a> button
 
 ## Contributions
 In order to contribute to this Repository, clone the Repository into your
