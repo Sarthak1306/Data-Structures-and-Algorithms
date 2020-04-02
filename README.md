@@ -50,7 +50,7 @@ Type in a message relevant for the code reveiwer using
 
 ```sh
 # This message get associated with all files you have changed
-$ git commit -m 'relevant message'
+$ git commit -m "relevant message"
 ```
 
 Now, Push your awesome work to your remote repository using
