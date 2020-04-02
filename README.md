@@ -2,7 +2,7 @@
 ## Repository Maintained by Sarthak Srivastava
 
 
-##Data Structures and Algorithms using C++.
+Data Structures and Algorithms using C++.
 
 ## Contributions
 In order to contribute to this Repository, clone the Repository into your
