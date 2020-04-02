@@ -19,7 +19,7 @@ You can get your own fork/copy of [Data-Structures-and-Algorithms](https://githu
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Data-Structures-and-Algorithms.git
+$ git clone https://github.com/Sarthak1306/Data-Structures-and-Algorithms.git
 ```
 > This makes a local copy of repository in your machine.
 
