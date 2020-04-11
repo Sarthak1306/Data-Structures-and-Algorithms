@@ -16,14 +16,59 @@ You can get your own fork/copy of [Data-Structures-and-Algorithms](https://githu
 
 ### 2. Clone it :busts_in_silhouette:
 
-You need to clone (download) it to local machine using
+You need to go to your Fork of the Repository and then  clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Sarthak1306/Data-Structures-and-Algorithms.git
+$ git clone https://github.com/Your_Username/Data-Structures-and-Algorithms.git
 ```
 > This makes a local copy of repository in your machine.
 
-### 3. Create a new branch :bangbang:
+
+Once you have cloned the `Data-Structures-and-Algorithms` repository in Github, move to that folder first using change directory command on linux and Mac.
+
+```sh
+# This will change directory to a folder Data-Structures-and-Algorithms
+$ cd Data-Structures-and-Algorithms
+```
+
+Move to this folder for all other commands.
+
+Now, lets add a reference to the original [Data-Structures-and-Algorithms](https://github.com/Sarthak1306/Data-Structures-and-Algorithms) repository using
+
+```sh
+$ git remote add upstream https://github.com/Sarthak1306/Data-Structures-and-Algorithms.git
+```
+
+> This adds a new remote named ***upstream***.
+
+See the changes using
+
+```sh
+$ git remote -v
+origin    https://github.com/Your_Username/Data-Structures-and-Algorithms.git (fetch)
+origin    https://github.com/Your_Username/Data-Structures-and-Algorithms.git (push)
+upstream  https://github.com/Sarthak1306/Data-Structures-and-Algorithms.git (fetch)
+upstream  https://github.com/Sarthak1306/Data-Structures-and-Algorithms.git (push)
+```
+
+### 3. Sync with the Remote
+
+Always keep your local copy of repository updated with the original repository.
+
+```sh
+# Fetch all remote repositories and delete any deleted remote branches
+$ git fetch --all --prune
+
+# Switch to `master` branch
+$ git checkout master
+
+# Reset local `master` branch to match `upstream` repository's `master` branch
+$ git reset --hard upstream/master
+
+# Push changes to your forked `Data-Structures-and-Algorithms` repo
+$ git push origin master
+```
+### 4. Create a new branch :bangbang:
 
 Whenever you are going to make a contribution. Please create a new branch using the command below  and keep your `master` branch clean (i.e. synced with remote branch).
 
